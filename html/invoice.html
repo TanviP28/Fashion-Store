@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Invoice</title>
+	<link rel="stylesheet" href="../css/invoice.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div id="bill-display">
+			<!-- ----- HEADER ---- -->
+			<table class="table table-bordered">
+				<p class="text-center">RETAIL INVOICE <small class="pull-right">(original)</small></p>
+				<tr>
+					<td colspan="3" rowspan="3">
+						<div class="box-title">
+							CLASSIC CURVES LIMITED
+						</div>
+						<div class="box-content">
+							Mumbai,<br>
+							Maharashtra 400 064<br>
+							Phone number : 1800-000-000<br>
+							Email : customercare@classiccurves.com
+						</div>
+					</td>
+					<td colspan="2">
+						<div class="box-title">Invoice No</div>
+						<div class="box-content">452</div>
+					</td>
+					<td colspan="2">
+						<div class="box-title">Dated</div>
+						<div class="box-content">10-08-2016</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="box-title">Delivery Note</div>
+						<div class="box-content">967</div>
+					</td>
+					<td colspan="2">
+						<div class="box-title">Mode of Payment</div>
+						<div class="box-content">Cash On Delivery</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="box-title">Dispatch Document</div>
+						<div class="box-content"></div>
+					</td>
+					<td colspan="2">
+						<div class="box-title">Dated</div>
+						<div class="box-content">10-08-2016</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" rowspan="3">
+						<div class="box-title">Buyer</div>
+						<div class="box-content">
+							<b>Customer Name</b><br>
+							Customer Address<br>
+							M: 9898979796
+						</div>
+					</td>
+					<td colspan="4">
+						<div class="box-title">Terms of Delivery</div>
+						<div class="box-content"></div>
+					</td>
+				</tr>
+				<tr></tr>
+				<tr></tr>
+				<!-- ----- BODY ---- -->
+				<tr class="heading-row v-row">
+					<td>Sr<br>No.</td>
+					<td>Product Name</td>
+					<td>Product Id</td>
+					<td>Quantity</td>					
+					<td>Amount</td>
+				</tr>
+				<tr class="v-row">
+					<td class="text-center">1</td>
+					<td class="text-center">Metal Screw Ph Combination</td>
+					<td class="text-center">001</td>
+					<td class="text-center">1</td>					
+					<td class="text-center">26070.00</td>
+				</tr>
+				<tr class="v-row">
+					<td class="text-center">1</td>
+					<td class="text-center">Metal Screw Ph Combination</td>
+					<td class="text-center">002</td>
+					<td class="text-center">1</td>					
+					<td class="text-center">26070.00</td>
+				</tr>
+				<tr class="v-row">
+					<td class="text-center">1</td>
+					<td class="text-center">Metal Screw Ph Combination</td>
+					<td class="text-center">004</td>
+					<td class="text-center">1</td>					
+					<td class="text-center">26070.00</td>
+				</tr>
+				<tr class="total-row v-row">
+					<td colspan="3" class="text-right">Total</td>
+					<td class="text-center">2</td>					
+					<td class="text-center">78210.00</td>
+				</tr>
+				<!-- ----- FOOTER ---- -->
+				<tr>
+					<td colspan="3">
+						<div class="box-content">Amount Chargeable(in words)</div>
+						<div class="box-title">Seventy Eight Thousands Two Hundred Ten Rs Only</div>
+					</td>
+					<td colspan="4"></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						Declaration:<br>
+						We declare that this invoice shows the actual price of the goods described and that all
+						particulars are true and correct.
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7" class="text-center">
+						SUBJECT TO SC CREATIVES LIMITED<br>
+						This is a Computer Generated Invoice.
+					</td>
+				</tr>
+			</table>
+		</div>
+		<button class="btn btn-default .print-btn" onclick="jsvascript:window.print()">Print Invoice</button>
+	</div>
+
+</body>
+
+</html>

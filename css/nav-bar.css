@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Libre+Baskerville&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color : #eee;
+    font-family : 'Roboto';   
+}
+
+
+
+#first-nav-bar { 
+    background-color : #eee;       
+    display : flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content : space-between;    
+    height : 40px;    
+    padding-top: 25px;  
+    padding-bottom: 24px;     
+}
+
+#left-elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;    
+    justify-content: space-between;     
+    padding-left: 50px;  
+    padding-top: 12px;  
+}
+
+#left-elements li {
+    margin : 0 25px;
+}
+
+#left-elements a {    
+    font-size: 17px;    
+    font-weight: 500;
+    color : black;
+    text-decoration: none;  
+}  
+
+#logo {    
+    background-color: black;
+    padding : 0 50px; 
+    margin-left : 100px; 
+}
+
+#logo a {
+    font-family: 'Cinzel';
+    font-size : 30px;
+    color : white;    
+    text-decoration: none;      
+}
+
+.right-elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;    
+    justify-content : space-between;     
+    padding-right : 50px;
+    padding-top: 12px; 
+}
+
+.right-elements li {
+    margin : 0 25px;    
+}
+
+.right-elements a {
+    font-size: 17px;    
+    font-weight: 500;
+    color : black;
+    text-decoration: none;
+}
+
+.right-elements a:hover {
+    color: black;
+}
+
+.profile-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.profile-dropdown-content a {      
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.profile-dropdown-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+.profile-dropdown:hover .profile-dropdown-content  {    
+    display: block;    
+}
+#second-nav-bar {   
+    display: flex;
+    flex-direction: row;
+    background-color: black;             
+    height : 40px;    
+    align-items: center;    
+}
+
+#elements ul {
+    display : flex;
+    flex-direction : row;    
+    list-style : none;   
+    justify-content: space-between;   
+    padding-top: 12px;      
+}
+
+#elements li {    
+    margin: 0 50px;      
+}
+
+#elements a {
+    font-size : 17px;
+    font-weight: 400;  
+    text-decoration: none;
+    padding : 7px 25px;
+}
+
+
+
+.dropdown a {
+    text-decoration: none;
+    color : black;
+}
+
+.dropdown a:hover {
+    background-color: #B00000;
+    color: white;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {    
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+

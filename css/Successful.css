@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+}
+
+#successful {
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+  border-radius: 3%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.upper {
+  width: 500px;
+  height: 250px;
+  background-color: #282828;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  padding-top: 40px;
+}
+
+.lower {
+  padding-top: 40px;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 30px;
+}

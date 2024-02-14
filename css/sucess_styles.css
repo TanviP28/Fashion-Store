@@ -1,0 +1,12 @@
+.box {
+  background-color: #;
+  width: 700px;
+  height: 550px;
+  margin: 150px 450px 150px 400px;
+  padding: 50px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.symbol {
+  margin-left: 220px;
+}
